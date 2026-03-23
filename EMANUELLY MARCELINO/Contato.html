@@ -77,13 +77,62 @@
       <label for="filme2"><input checked type="radio" name="filme" id="filme2" value="filme2"> Filme2</label>
 
       <label for="filme3"><input type="radio" name="filme" id="filme3" value="filme3"> filme3</label>
-</fieldset>
+</fieldset><br><br>
 
 <select>
     <option value="filme 1">Filme 1</option>
     <option value="filme 2">Filme2</option>
     <option selected value="filme 3">Filme 3</option>
+
+    <label for="nivel">Escolha o nível</label>
+    <input type="range" max="10" min="1" id="nivel" name="nivel">
+
+    <select>
+<label for="nivel">Escolha o nível</label>
+    <input type="range" max="10" min="1" id="nivel" name="nivel">
 </select>
+    <select>
+        <optgroup label="Teste de legenda no combobox">
+            <option value="Teste 1">Teste 1</option>
+            <option value="Teste 2">Teste 2</option>
+            <option value="Teste 3">Teste 3</option>
+        </optgroup>
+        <optgroup label="Teste de legenda no combobox 2">
+            <option value="Teste 4">Teste 4</option>
+            <option value="Teste 5">Teste 5</option>
+            <option value="Teste 6">Teste 6</option>
+        </optgroup>
+    </select><br><br>
+
+<fieldset>
+    <legend>Desenvolvimento para internet</legend>
+    <labe><input type="checkbox" name="php" value="php"> PHP</labe>
+    <labe><input type="checkbox" name="html5" value="html5"> HTML5</labe>
+    <labe><input type="checkbox" name="css" value="css"> CSS</labe>
+    <labe><input type="checkbox" name="js" value="js">JAVASCRIPT</labe>
+</fieldset><br><br>
+
+<!--Detalist possiveis ganhadores da copa do mundo 26-->
+<input type="text" id="busca_detalist">
+<detalist id="paises">
+    <option>Brasil</option>
+    <option>França</option>
+    <option>Argentina</option>
+    <option>Alemanha</option>
+    <option>Inglaterra</option>
+    <option>Espanha</option>
+</detalist><br><br>
+
+<audio controls muted autoplay loop>
+    <source src="audio/musica.mp3" type="audio/mp3">
+    Navegador não é compativel para executar áudio!
+</audio><br><br>
+
+<video controls autoplay loop poster="">
+    <source src="video/videoteste.mp4" type="video/mp4">
+</video>
+
+
 
 <button type="reset">Limpar</button>
 <button type="submit">Enviar</button>
@@ -91,6 +140,5 @@
     <button type="submit"> Enviar</button>
 
 </form>
-    
 </body>
 </html>
